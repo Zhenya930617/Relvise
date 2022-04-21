@@ -633,6 +633,35 @@ input.subscribe-input::placeholder{
 .bottom-img {
 }
 /*adaptiv*/
+@media (max-width:1024px){
+    .center-box{
+        padding: 0 10px;
+    }
+    .top{
+        padding: 0 10px;  
+    }
+    .finance-box{
+        padding: 0 10px;
+    }
+    .header-top{
+        padding: 36px 20px;
+    }
+    .center-title{
+        padding: 0 10px;
+    }
+    .center-text{
+        padding: 0 10px;
+    }
+    .center-btns{
+        padding: 0 10px;
+    }
+    .who-box{
+        justify-content: space-around;
+    }
+    .practice-box{
+        padding: 0 10px;
+    }
+}
 @media (max-width:768px){
     .practice-box{
         flex-wrap: wrap;
@@ -646,7 +675,7 @@ input.subscribe-input::placeholder{
         padding-top: 0px;
     }
     .who{
-        padding-top: 0px;
+        padding-top: 20px;
     }
     .header-top{
         justify-content: center;
@@ -683,6 +712,9 @@ input.subscribe-input::placeholder{
     .achievements-item:last-child{
         margin-top: 20px;
     }
+    .practice-box__item:last-child {
+        margin-top: 20px;
+    }
     .top {
         padding-left: 10px;
     }
@@ -701,6 +733,17 @@ input.subscribe-input::placeholder{
     }
     .quick-item{
         padding-bottom: 10px;
+    }
+    .who-box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-video{
+        margin-bottom: 20px;
+    }
+    .company-logo{
+        padding-top: 30px;
+        padding-bottom: 110px;
     }
 }
 @media (max-width:480px){
@@ -750,6 +793,36 @@ input.subscribe-input::placeholder{
     .center-item {
         margin-bottom: 20px;
     }
+    .designing{
+        padding: 60px 0px;
+    }
+    .achievements-item:last-child{
+        margin-top: 10px;
+    }
+    .achievements-item:nth-child(3){
+        margin-top: 20px;
+    }
+    .practice-box__item{
+        margin-top: 20px;
+    }
+    .subscribe{
+        display: none;
+    }
+    .company-bg{
+        display: none;
+    }
+    .company-logo{
+        padding-bottom: 80px;
+    }
+    .get{
+        padding: 50px 0px;
+    }
+    .get-item{
+        margin-top: 20px;
+    }
+    .footer-top{
+        display: none;
+    }
 }
 @media (max-width:360px){
     .header-top{
@@ -794,4 +867,15 @@ input.subscribe-input::placeholder{
     .get{
         padding: 50px 0px;
     }
+    .get-box{
+        padding-top: 20px;
+    }
+    .center-text{
+        padding-bottom: 20px;
+    }
+    .company-logo{
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
 }
